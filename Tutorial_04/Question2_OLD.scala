@@ -1,4 +1,4 @@
-object Question2 {
+object Question2OLD {
 
     case class CartItem(var Name: String, var Price: Double, var Quantity: Int)
 

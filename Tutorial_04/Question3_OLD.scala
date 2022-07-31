@@ -1,6 +1,6 @@
 import scala.language.implicitConversions
 
-object Question3 extends App {
+object Question3OLD extends App {
     case class Car(name: String, price: Double)
 
     class CarUUID(car: Car) {

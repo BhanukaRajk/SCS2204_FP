@@ -19,8 +19,8 @@ object Question1 {
     Amount match {
         case x if x < 20000 => x*0.02f
         case x if x < 200000 => x*0.04f
-        case x if x < 2000000 => x*0.35f
-        case x if x > 2000000 => x*0.65f
+        case x if x < 2000000 => x*0.035f
+        case x if x > 2000000 => x*0.065f
         }
 
 }

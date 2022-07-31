@@ -13,12 +13,12 @@ object Question3 extends App {
 
     import CarExtensions._
     
-    val cars = List(Car("bmw 3 series", 20000),
+    val Cars = List(Car("bmw 3 series", 20000),
                     Car("bmw 5 series", 50000),
                     Car("vw passat", 10000),
                     Car("vw golf", 12000),
                     Car("mazda 3", 15000))
 
-    cars.foreach(car => car.uuid)
+    Cars.foreach(car => car.uuid)
 
 }

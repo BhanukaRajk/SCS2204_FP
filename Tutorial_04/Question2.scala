@@ -1,4 +1,4 @@
-object Question4 {
+object Question2 {
     def main(args: Array[String]) = {
 
         print("Enter your value: " );

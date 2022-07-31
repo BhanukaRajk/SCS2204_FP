@@ -1,4 +1,4 @@
-object Question5 {
+object Question3 {
 
     def toUpper(word: String): String = word.toUpperCase()
     def toLower(word: String): String = word.toLowerCase()

@@ -6,10 +6,13 @@ object Question3 {
     def formatNames(name: String)(method: String => String): String = method(name)
 
     def main(args: Array[String]) = {
-        println(formatNames("Benny")(toUpper(_)))
-        println(formatNames("Niroshan")(toUpper(_)))
-        println(formatNames("Saman")(toLower(_)))
-        println(formatNames("Kumara")(toUpper(_)))
+
+        val Names: List[String] = List("Benny", "Niroshan", "Saman", "Kumara")
+
+        println(formatNames(Names(0))(toUpper(_)))
+        println(formatNames(Names(1).substring(0,2))(toUpper(_)) + Names(1).substring(2))
+        println(formatNames(Names(2))(toLower(_)))
+        println(Names(3).substring(0,5) + formatNames(Names(3).substring(5))(toUpper(_)))
     }
 
 }
